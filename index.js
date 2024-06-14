@@ -31,7 +31,7 @@ window.onload = function () {
       const shareData = {
         title: '共有のテストするよ',
         text: 'This is the image you wanted to share',
-        url: 'https://www.google.com',
+        url: '',
         files: [imageFile],
       };
       navigator.share(shareData).then(() => {}).catch(e => console.error(e))
